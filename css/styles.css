@@ -1,0 +1,63 @@
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        "A A A A"
+        "C B B B"
+        "C D D D"
+        "E E E E";
+}
+
+header {
+    grid-area: A;
+    background-color: #FFEA20;
+}
+
+nav {
+    grid-area: B;
+    background-color: #8DCBE6;
+}
+
+aside {
+    grid-area: C;
+    background-color: #9DF1DF;
+}
+
+main {
+    grid-area: D;
+    background-color: #2d6c8a;
+}
+
+footer {
+    grid-area: E;
+    background-color: #E7B10A;
+}
+
+.menu-h{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    list-style: none;
+    
+}
+
+.menu-h a{
+    background-color: #3A98B9;
+    color: aqua;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 4px;
+}
+
+.menu-v{
+    list-style: none;
+}
+
+.menu-v a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 3px;
+    background-color: #FBC252;
+    color: aqua;
+
+}
